@@ -10,7 +10,6 @@ export default function JsonInput({onJsonData}) {
 
   //submit button click event handler
   const handleSubmit = () => {
-    setJsonText(event.target.value);
     try {
         // remove text before and after the [ and ] characters
         const startIndex = jsonText.indexOf("[");
